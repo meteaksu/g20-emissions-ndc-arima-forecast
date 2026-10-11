@@ -58,17 +58,17 @@ This project evaluates national decarbonization trajectories across G20 economie
 
 ## How to Run
 
-1. Clone the repository:
+   Clone the repository:
    ```bash
    git clone (https://github.com/meteaksu/g20-emissions-ndc-arima-forecast.git)
    cd g20-emissions-ndc-arima-forecast
 
-Install required packages:
+   Install required packages:
+   pip install pandas numpy duckdb statsmodels matplotlib
 
-pip install pandas numpy duckdb statsmodels matplotlib
+   Execute the Jupyter Notebook:
+   jupyter notebook project.ipynb
 
-Execute the Jupyter Notebook:
 
-jupyter notebook project.ipynb
 
    
